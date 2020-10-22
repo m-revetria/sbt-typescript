@@ -20,7 +20,7 @@ To be able to view the original Typescript code from your browser when developin
 
 Add the following line to your `project\plugins.sbt`:
 
-    addSbtPlugin("name.de-vries" % "sbt-typescript" % "2.6.2")
+    addSbtPlugin("name.de-vries" % "sbt-typescript" % "2.7.0")
 
 If your project is not a Play application you will have to enable `sbt-web` in `build.sbt`:
 
@@ -72,6 +72,10 @@ If you are importing modules for which you don't have the typings you can ignore
     
 
 ## release notes
+
+#### v2.7.0
+- upgrade typescript to v2.7.2
+- use sbt 1.2.1
 
 #### v2.6.2
 - typescript version upgrade
